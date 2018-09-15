@@ -33,6 +33,7 @@ public class BOSRealm extends AuthorizingRealm {
 		 * 为用户授权
 		 */
 		//TODO 后期需要更改为当前登录用户查数据库
+		
 		info.addStringPermission("staff-list");
 		return info;
 	}
