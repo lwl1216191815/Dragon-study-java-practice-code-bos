@@ -1,15 +1,600 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03e1fb9c-b9cf-472d-a2fd-47dd8057a80c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bos_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bos_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_belerweb_pinyin4j_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_r09.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_10_b140310_1920.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_10_b140310_1920.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_error_diagnostics_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_monitor_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_descriptor_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_parameter_documenter_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_toolchain_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_compiler_plugin_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_neethi_neethi_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_javac_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_manager_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/bos-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-dao/bos-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/META-INF/maven/com.itheima/bos-dao/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/META-INF/maven/com.itheima/bos-dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/IDecidedzoneDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/INoticebillDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/IRegionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/IStaffDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/ISubareaDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/IWorkOrderManageDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/IWorkbillDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/base/IBaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/base/impl/BaseDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/base/impl/NoticebillDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/impl/DecidedDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/impl/RegionDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/impl/StaffDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/impl/SubareaDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/impl/WorkOrderManageDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/target/classes/com/itheima/bos/dao/impl/WorkbillDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/bos-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/bos-domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/META-INF/maven/com.itheima/bos-domain/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/META-INF/maven/com.itheima/bos-domain/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Decidedzone.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Decidedzone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Function.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Noticebill.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Noticebill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Region.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Region.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Subarea.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Subarea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/WorkOrderManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/WorkOrderManage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Workbill.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos-domain/target/classes/com/itheima/bos/domain/Workbill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/bos-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-service/bos-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/realm/BOSRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/realm/BOSRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/META-INF/maven/com.itheima/bos-service/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/META-INF/maven/com.itheima/bos-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/realm/BOSRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/IDeciedService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/INoticebillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/IRegionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/IStaffService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/ISubareaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/IWorkOrderManageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/impl/DecidedServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/impl/NoticebillServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/impl/RegionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/impl/StaffServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/impl/SubareaServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/target/classes/com/itheima/bos/service/impl/WorkOrderManageServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/bos-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-utils/bos-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/META-INF/maven/com.itheima/bos-utils/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/META-INF/maven/com.itheima/bos-utils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/com/itheima/bos/utils/BOSUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/com/itheima/bos/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/com/itheima/bos/utils/MD5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/com/itheima/bos/utils/PageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/com/itheima/bos/utils/PinYin4jUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/com/itheima/crm/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-utils/target/classes/com/itheima/crm/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/bos-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/bos-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/web/bos/action/StaffAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/web/bos/action/StaffAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/action/DecidedzoneAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/action/NoticebillAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/action/RegionAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/action/StaffAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/action/SubareaAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/action/UserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/action/WorkOrderManageAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/action/base/BaseAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/com/itheima/web/bos/interceptor/BOSLoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/m2e-wtp/web-resources/META-INF/maven/com.itheima/bos-web/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/m2e-wtp/web-resources/META-INF/maven/com.itheima/bos-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2018-08-29" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <ignored path="$PROJECT_DIR$/bos-utils/target/" />
+    <ignored path="$PROJECT_DIR$/bos-dao/target/" />
+    <ignored path="$PROJECT_DIR$/bos-domain/target/" />
+    <ignored path="$PROJECT_DIR$/bos-web/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/bos-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="827613006">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.89" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5850" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-utils/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-utils/src/main/java/com/itheima/crm/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bos-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536998407487" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Crm_itheima_32" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="bos-web" type="TestNG" factoryName="TestNG">
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_bos-parent" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51302" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03e1fb9c-b9cf-472d-a2fd-47dd8057a80c" name="Default Changelist" comment="" />
+      <created>1536995100519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536995100519</updated>
+      <workItem from="1536995183769" duration="3158000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3158000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3464448" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" weight="0.5533662" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32840723" />
+      <window_info anchor="bottom" id="Messages" weight="0.97865355" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bos-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/com/itheima/bos/domain/Decidedzone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/com/itheima/web/bos/action/DecidedzoneAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1440">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-utils/src/main/java/com/itheima/crm/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5850" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>bos-web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bos-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

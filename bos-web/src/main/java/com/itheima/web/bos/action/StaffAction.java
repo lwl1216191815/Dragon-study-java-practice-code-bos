@@ -64,7 +64,7 @@ public class StaffAction extends BaseAction<Staff> {
 	 * 
 	 * @return
 	 */
-	@RequiresPermissions("staff-delete")
+	//@RequiresPermissions("staff-delete")
 	public String deleteBatch() {
 		staffService.deleteBatch(ids);
 		return LIST;

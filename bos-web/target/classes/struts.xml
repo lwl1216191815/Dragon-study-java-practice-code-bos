@@ -50,9 +50,8 @@
 		<action name="noticebillAction_*" class="com.itheima.web.bos.action.NoticebillAction" method="{1}">
 		    <result name="noticebill_add">/WEB-INF/pages/qupai/noticebill_add.jsp</result>
 		</action>
-				<!-- 业务通知单管理 -->
+		<!-- 工作单管理 -->
 		<action name="workOrderManageAction_*" class="com.itheima.web.bos.action.WorkOrderManageAction" method="{1}">
-		    <result name="noticebill_add">/WEB-INF/pages/qupai/noticebill_add.jsp</result>
 		</action>
 	</package>
 </struts>
