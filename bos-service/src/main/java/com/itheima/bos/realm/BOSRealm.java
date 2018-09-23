@@ -29,11 +29,8 @@ public class BOSRealm extends AuthorizingRealm {
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
 		SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-		/**
-		 * 为用户授权
-		 */
+	
 		//TODO 后期需要更改为当前登录用户查数据库
-		
 		info.addStringPermission("staff-list");
 		return info;
 	}

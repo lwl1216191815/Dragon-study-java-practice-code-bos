@@ -11,16 +11,20 @@ public class Function implements java.io.Serializable {
 
 	// Fields
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String id;
 	private Function parentFunction;//当前权限的上级权限
-	private String name;
+	private String text;
 	private String code;
 	private String description;
 	private String page;
 	private String generatemenu;//是否生成菜单，1：是 0：否
 	private Integer zindex;
-	private Set roles = new HashSet(0);//当前权限对应的多个角色
-	private Set children = new HashSet(0);//当前权限的下级权限
+	private Set<Role> roles = new HashSet<Role>(0);//当前权限对应的多个角色
+	private Set<Function> children = new HashSet<Function>(0);//当前权限的下级权限
 	public String getId() {
 		return id;
 	}
@@ -33,11 +37,11 @@ public class Function implements java.io.Serializable {
 	public void setParentFunction(Function parentFunction) {
 		this.parentFunction = parentFunction;
 	}
-	public String getName() {
-		return name;
+	public String getText() {
+		return text;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setText(String text) {
+		this.text = text;
 	}
 	public String getCode() {
 		return code;
@@ -69,16 +73,16 @@ public class Function implements java.io.Serializable {
 	public void setZindex(Integer zindex) {
 		this.zindex = zindex;
 	}
-	public Set getRoles() {
+	public Set<Role> getRoles() {
 		return roles;
 	}
-	public void setRoles(Set roles) {
+	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
 	}
-	public Set getChildren() {
+	public Set<Function> getChildren() {
 		return children;
 	}
-	public void setChildren(Set children) {
+	public void setChildren(Set<Function> children) {
 		this.children = children;
 	}
 }

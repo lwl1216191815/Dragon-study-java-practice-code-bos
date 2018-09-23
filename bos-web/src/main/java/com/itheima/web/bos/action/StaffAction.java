@@ -25,6 +25,7 @@ public class StaffAction extends BaseAction<Staff> {
 	 */
 	@Autowired
 	private IStaffService staffService;
+
 	private String ids;
 
 
@@ -64,7 +65,7 @@ public class StaffAction extends BaseAction<Staff> {
 	 * 
 	 * @return
 	 */
-	//@RequiresPermissions("staff-delete")
+	@RequiresPermissions("staff-delete")
 	public String deleteBatch() {
 		staffService.deleteBatch(ids);
 		return LIST;
@@ -74,6 +75,7 @@ public class StaffAction extends BaseAction<Staff> {
      * 修改取派员信息
      * @return
      */
+	@RequiresPermissions("staff-edit")
 	public String edit() {
 		Staff staff = staffService.findById(model.getId());
 		staff.setName(model.getName());
@@ -100,4 +102,11 @@ public class StaffAction extends BaseAction<Staff> {
 	public void setIds(String ids) {
 		this.ids = ids;
 	}
+	public IStaffService getStaffService() {
+		return staffService;
+	}
+	public void setStaffService(IStaffService staffService) {
+		this.staffService = staffService;
+	}
+
 }

@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -30,7 +30,11 @@
 	$(function(){
 		// 点击保存
 		$('#save').click(function(){
-			location.href='${pageContext.request.contextPath}/page_admin_function.action';
+			//表单校验
+			var v = $("#functionForm").form("validate");
+			if(v){
+				$("#functionForm").submit();
+			}
 		});
 	});
 </script>	
@@ -38,19 +42,19 @@
 <body class="easyui-layout">
 <div data-options="region:'north'">
 	<div class="datagrid-toolbar">
-		<a id="save" data-options="region:iconCls:'icon-save',plain:true" href="#" class="easyui-linkbutton">保存</a>
+		<a id="save" icon="icon-save" href="#" class="easyui-linkbutton" plain="true" >保存</a>
 	</div>
 </div>
 <div data-options="region:'center'">
-	<form id="functionForm" method="post">
-				<table class="table-edit" style="width: 80%; align : center">
+	<form id="functionForm" method="post" action="functionAction_addFunction.action">
+				<table class="table-edit" width="80%" align="center">
 					<tr class="title">
 						<td colspan="2">功能权限信息</td>
 					</tr>
 					<tr>
-						<td width="200">编号</td>
+						<td width="200">关键字</td>
 						<td>
-							<input type="text" name="id" class="easyui-validatebox" data-options="required:true" />						
+							<input type="text" name="code" class="easyui-validatebox" data-options="required:true" />						
 						</td>
 					</tr>
 					<tr>
@@ -64,7 +68,7 @@
 					<tr>
 						<td>是否生成菜单</td>
 						<td>
-							<select name="generateMenu" class="easyui-combobox">
+							<select name="generatemenu" class="easyui-combobox">
 								<option value="0">不生成</option>
 								<option value="1">生成</option>
 							</select>
@@ -79,7 +83,10 @@
 					<tr>
 						<td>父功能点</td>
 						<td>
-							<input name="parentFunction.id" class="easyui-combobox" data-options="valueField:'id',textField:'info',url:''"/>
+							<!-- <input name="parentFunction.id" class="easyui-combobox" 
+								data-options="valueField:'id',textField:'name',
+								url:'functionAction_listajax.action'"/> -->
+								<input class="easyui-combotree" name="parentFunction.id" data-options="url:'functionAction_listajax.action'" style="width:170px;"/>
 						</td>
 					</tr>
 					<tr>
