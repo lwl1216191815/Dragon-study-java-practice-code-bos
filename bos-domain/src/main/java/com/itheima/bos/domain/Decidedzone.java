@@ -11,10 +11,14 @@ public class Decidedzone implements java.io.Serializable {
 
 	// Fields
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String id;
 	private Staff staff;
 	private String name;
-	private Set subareas = new HashSet(0);
+	private Set<Subarea> subareas = new HashSet<Subarea>(0);
 
 	// Constructors
 
@@ -28,7 +32,7 @@ public class Decidedzone implements java.io.Serializable {
 	}
 
 	/** full constructor */
-	public Decidedzone(String id, Staff staff, String name, Set subareas) {
+	public Decidedzone(String id, Staff staff, String name, Set<Subarea> subareas) {
 		this.id = id;
 		this.staff = staff;
 		this.name = name;
@@ -61,11 +65,11 @@ public class Decidedzone implements java.io.Serializable {
 		this.name = name;
 	}
 
-	public Set getSubareas() {
+	public Set<Subarea> getSubareas() {
 		return this.subareas;
 	}
 
-	public void setSubareas(Set subareas) {
+	public void setSubareas(Set<Subarea> subareas) {
 		this.subareas = subareas;
 	}
 

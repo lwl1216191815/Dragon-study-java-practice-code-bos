@@ -12,6 +12,10 @@ public class Noticebill implements java.io.Serializable {
 
 	// Fields
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String id;
 	private User user;
 	private Staff staff;
@@ -28,7 +32,7 @@ public class Noticebill implements java.io.Serializable {
 	private String volume;
 	private String remark;
 	private String ordertype;//分单类型：自动分单、人工分单
-	private Set workbills = new HashSet(0);
+	private Set<Workbill> workbills = new HashSet<Workbill>(0);
 
 	public static final String  ORDERTYPE_AUTO = "自动分单";
 	public static final String  ORDERTYPE_MAN = "人工分单";
@@ -49,7 +53,7 @@ public class Noticebill implements java.io.Serializable {
 			String customerName, String delegater, String telephone,
 			String pickaddress, String arrivecity, String product,
 			Date pickdate, Integer num, Double weight, String volume,
-			String remark, String ordertype, Set workbills) {
+			String remark, String ordertype, Set<Workbill> workbills) {
 		this.id = id;
 		this.user = user;
 		this.staff = staff;
@@ -199,11 +203,11 @@ public class Noticebill implements java.io.Serializable {
 		this.ordertype = ordertype;
 	}
 
-	public Set getWorkbills() {
+	public Set<Workbill> getWorkbills() {
 		return this.workbills;
 	}
 
-	public void setWorkbills(Set workbills) {
+	public void setWorkbills(Set<Workbill> workbills) {
 		this.workbills = workbills;
 	}
 

@@ -11,6 +11,10 @@ public class Staff implements java.io.Serializable {
 
 	// Fields
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String id;
 	private String name;
 	private String telephone;
@@ -18,7 +22,7 @@ public class Staff implements java.io.Serializable {
 	private String deltag = "0";//删除标识位，1：已删除 0：未删除
 	private String station;
 	private String standard;
-	private Set decidedzones = new HashSet(0);
+	private Set<Decidedzone> decidedzones = new HashSet<Decidedzone>(0);
 
 	// Constructors
 
@@ -33,7 +37,7 @@ public class Staff implements java.io.Serializable {
 
 	/** full constructor */
 	public Staff(String id, String name, String telephone, String haspda,
-			String deltag, String station, String standard, Set decidedzones) {
+			String deltag, String station, String standard, Set<Decidedzone> decidedzones) {
 		this.id = id;
 		this.name = name;
 		this.telephone = telephone;
@@ -102,11 +106,11 @@ public class Staff implements java.io.Serializable {
 		this.standard = standard;
 	}
 
-	public Set getDecidedzones() {
+	public Set<Decidedzone> getDecidedzones() {
 		return this.decidedzones;
 	}
 
-	public void setDecidedzones(Set decidedzones) {
+	public void setDecidedzones(Set<Decidedzone> decidedzones) {
 		this.decidedzones = decidedzones;
 	}
 

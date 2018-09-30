@@ -8,6 +8,10 @@ public class Subarea implements java.io.Serializable {
 
 	// Fields
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String id;
 	private Decidedzone decidedzone;
 	private Region region;//分区对应的区域

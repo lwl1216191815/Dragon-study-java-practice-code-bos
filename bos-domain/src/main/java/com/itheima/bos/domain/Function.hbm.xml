@@ -10,7 +10,7 @@
         <many-to-one name="parentFunction" class="com.itheima.bos.domain.Function" fetch="select">
             <column name="pid" length="32" />
         </many-to-one>
-        <property name="text" type="java.lang.String">
+        <property name="name" type="java.lang.String">
             <column name="name" />
         </property>
         <property name="code" type="java.lang.String">

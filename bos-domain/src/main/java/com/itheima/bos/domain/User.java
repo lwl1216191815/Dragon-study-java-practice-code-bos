@@ -42,7 +42,7 @@ public class User implements java.io.Serializable {
 	/** full constructor */
 	public User(String id, String username, String password, Double salary,
 			Date birthday, String gender, String station, String telephone,
-			String remark, Set noticebills, Set roles) {
+			String remark, Set<Noticebill> noticebills, Set<Role> roles) {
 		this.id = id;
 		this.username = username;
 		this.password = password;
@@ -130,19 +130,19 @@ public class User implements java.io.Serializable {
 		this.remark = remark;
 	}
 
-	public Set getNoticebills() {
+	public Set<Noticebill> getNoticebills() {
 		return this.noticebills;
 	}
 
-	public void setNoticebills(Set noticebills) {
+	public void setNoticebills(Set<Noticebill> noticebills) {
 		this.noticebills = noticebills;
 	}
 
-	public Set getRoles() {
+	public Set<Role> getRoles() {
 		return this.roles;
 	}
 
-	public void setRoles(Set roles) {
+	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
 	}
 
