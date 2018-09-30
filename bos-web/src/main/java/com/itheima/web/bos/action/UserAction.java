@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import com.itheima.bos.domain.User;
-import com.itheima.bos.service.UserService;
+import com.itheima.bos.service.IUserService;
 import com.itheima.bos.utils.BOSUtils;
 import com.itheima.bos.utils.MD5Utils;
 import com.itheima.web.bos.action.base.BaseAction;
@@ -29,8 +29,9 @@ public class UserAction extends BaseAction<User> {
 	/**
 	 * 注入Service
 	 */
+	private String[] roleIds;
 	@Autowired
-	private UserService userService;
+	private IUserService userService;
 
 	public UserAction() throws InstantiationException, IllegalAccessException {
 		super();
@@ -41,8 +42,13 @@ public class UserAction extends BaseAction<User> {
 	}
 
 	/**
-	 * 
+	 * 增加用户
 	 */
+	public String addUser() {
+		System.out.println("11111");
+		userService.save(model,roleIds);
+		return LIST;
+	}
 
 	/**
 	 * 用户登录,使用shiro框架提供的方式进行认证
@@ -120,5 +126,13 @@ public class UserAction extends BaseAction<User> {
 		ServletActionContext.getResponse().setContentType("text/html;charset=utf-8");
         ServletActionContext.getResponse().getWriter().write(f);
 		return NONE;
+	}
+
+	public String[] getRoleIds() {
+		return roleIds;
+	}
+
+	public void setRoleIds(String[] roleIds) {
+		this.roleIds = roleIds;
 	}
 }
